@@ -1,0 +1,67 @@
+Código JavaScript completo do exemplo
+Segue o código completo na linguagem JavaScript que usamos nesse exemplo:
+
+ 
+
+let numero = document.querySelector("h1");
+
+let botao = document.querySelector("button");
+
+let contagem = 0;
+
+ 
+
+function adicionarUm(){
+
+  contagem = contagem + 1;
+
+  numero.innerText = contagem;
+
+}
+ 
+
+botao.addEventListener("click", adicionarUm);
+
+Alternativa para organização do código
+ 
+ Embora a organização do código proposta nesse material seja muito útil
+ pela perspectiva didática,  encontraremos outras formas de organização
+  no dia a dia.
+ 
+
+Uma alternativa muito comum é, ao invés de declarar a função separadamente, 
+escrevê-la como uma função anônima dentro do parênteses do addEventListener.
+
+let numero = document.querySelector("h1");
+
+let botao = document.querySelector("button");
+
+let contagem = 0;
+ 
+
+botao.addEventListener("click", function(){
+
+  contagem = contagem + 1;
+
+  numero.innerText = contagem;
+
+});
+
+
+Alternativa para organização do código
+
+let numero = document.querySelector("h1");
+
+let botao = document.querySelector("button");
+
+let contagem = 0;
+
+ 
+
+botao.addEventListener("click", () => {
+
+  contagem = contagem + 1;
+
+  numero.innerText = contagem;
+
+});
