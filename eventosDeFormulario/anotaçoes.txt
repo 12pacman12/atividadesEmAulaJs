@@ -1,0 +1,5 @@
+Descrição dos eventos de formulário
+temos 3 tipos principais de eventos:
+- focus -> o elemento é focado pelo usuário 
+- blur -> o elemento perde o foco do usuário
+- change -> o elemento tem seu valor alterado depois de perder o foco.

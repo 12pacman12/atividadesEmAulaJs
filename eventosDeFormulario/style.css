@@ -1,0 +1,29 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(180, 180, 206); */
+  height: 600px;
+  flex-direction: column;
+}
+
+form {
+  border: 20px;
+  color: yellow;
+  padding: 50px;
+  background-color: aqua;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.formulario h1 {
+  color: purple;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 50px;
+}
+
+.formulario h2 {
+  color: purple;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container_body">
+      <header class="header">
+        <div id="link1">
+          <div id="img1"></div>
+          ola mundo
+        </div>
+        <div id="link2">
+          <div id="img2"></div>
+          ola mundo
+        </div>
+        <div id="link3">
+          <div id="img3"></div>
+          ola mundo
+        </div>
+        <div id="link4">
+          <div id="img4"></div>
+          ola mundo
+        </div>
+        <!-- </div> -->
+      </header>
+      <main>
+        <div class="container">
+          <h1>Praticando a criação de formulários</h1>
+
+          <div class="container_form">
+            <form action="" id="formulario">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" />
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+              <label for="senha">Senha</label>
+              <input type="password" name="senha" id="senha" />
+              <label for="telefone">Telefone</label>
+              <input type="tel" name="telefone" id="telefone" />
+
+              <section>
+                <p>Nacionalidade</p>
+                <input
+                  type="radio"
+                  name="nacionalidade"
+                  id="brasil"
+                  value="Brasi"
+                />
+                <label for="brasil">Brasileiro</label>
+                <input
+                  type="radio"
+                  name="nacionalidade"
+                  id="outro"
+                  value="outro"
+                />
+                <label for="outro">Estrangeiro</label>
+              </section>
+
+              <section>
+                <p>Meios de transporte</p>
+                <input
+                  type="checkbox"
+                  name="meio de transporte"
+                  id="pe"
+                  value="A pé"
+                />
+                <label for="pe">A pé</label>
+                <input
+                  type="checkbox"
+                  name="meio de transporte"
+                  id="bicicleta"
+                  value="bicicleta"
+                />
+                <label for="bicicleta">Bicicleta</label>
+                <input
+                  type="checkbox"
+                  name="meio de transporte"
+                  id="carro"
+                  value="carro"
+                />
+                <label for="carro">Carro</label>
+              </section>
+              <button type="submit" class="btn">Enviar</button>
+            </form>
+          </div>
+          <div class="conteudo_explicativo">
+            <section class="texto">
+              <h2>Informações sobre como foi feito este formulário</h2>
+              <p>
+                Para criar o formulário desta página foi utilizado a tag "form",
+                dentro dela foram adicionados labels e inputs para serem
+                nomeados e criados os campos para serem inseridos os dados do
+                formulário.
+              </p>
+              <h2>Propriedades utilizadas</h2>
+              <h3>Type</h3>
+              <p>Define o tipo de dado que será inserido no input</p>
+              <h3>Name</h3>
+              <p>Faz uma referencia ao input na hora que ele for enviado</p>
+              <h3>id e for</h3>
+              <p>
+                Nesse caso utilizando formulário, passando o mesmo nome tanto
+                para o "id" quanto para o "for", faz com que a label e o input
+                sejam linkados um ao outro, permitindo ao usuário na hora de
+                selecionar o campo clicar tando no nome da label quanto dentro
+                do input pois os dois estaram unidos.
+              </p>
+              <h3>Value</h3>
+              <p>
+                Para determinados tipos de imputs, é necessário ser passado o
+                tipo de valor que se espera receber, para que na hora que forem
+                enviados possam ser identificados.
+              </p>
+              <h3>Tag button com a propriedade submit</h3>
+              <p>Cria um botão para que possa ser enviado alguma informação.</p>
+            </section>
+          </div>
+          <div class="footer">
+            <footer>Pagina Criada Por Mario M. Alves</footer>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
